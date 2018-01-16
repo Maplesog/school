@@ -1,0 +1,10 @@
+{
+  "name": "cuc3dsense",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server":"http-server . -p 8000",
+    "deploy-dev": "scp -r *  work@101.200.193.94:/data/view3d/cuc3dsense"
+  }
+}
